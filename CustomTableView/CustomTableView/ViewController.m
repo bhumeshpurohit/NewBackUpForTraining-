@@ -57,6 +57,27 @@
     return 78;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    /*UIAlertView *messageAlert = [[UIAlertView alloc]
+     initWithTitle:@"Row Selected" message:@"You've selected a row" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+     
+     // Display Alert Message
+     [messageAlert show];*/
+    
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    if(Flag)
+    {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark	;
+        Flag=FALSE;
+    }
+    else{
+        cell.accessoryType=UITableViewCellAccessoryNone;
+        Flag=TRUE;
+    }
+    
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -64,27 +85,6 @@
 }
 
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    /*UIAlertView *messageAlert = [[UIAlertView alloc]
-                                 initWithTitle:@"Row Selected" message:@"You've selected a row" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    
-    // Display Alert Message
-    [messageAlert show];*/
-    
-     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-    if(Flag)
-    {
-     cell.accessoryType = UITableViewCellAccessoryCheckmark	;
-        Flag=FALSE;
-    }
-    else{
-        cell.accessoryType=UITableViewCellAccessoryNone;
-        Flag=TRUE;
-    }
-   
-    
-}
 
 
 @end

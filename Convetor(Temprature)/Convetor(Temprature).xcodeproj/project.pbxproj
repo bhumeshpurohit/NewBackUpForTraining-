@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127762CC1B05AEB0001B9152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 127762CB1B05AEB0001B9152 /* main.m */; };
+		127762CF1B05AEB0001B9152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 127762CE1B05AEB0001B9152 /* AppDelegate.m */; };
+		127762D21B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 127762D01B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodeld */; };
+		127762D51B05AEB0001B9152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127762D41B05AEB0001B9152 /* ViewController.m */; };
+		127762D81B05AEB1001B9152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127762D61B05AEB1001B9152 /* Main.storyboard */; };
+		127762DA1B05AEB1001B9152 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127762D91B05AEB1001B9152 /* Images.xcassets */; };
+		127762DD1B05AEB1001B9152 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127762DB1B05AEB1001B9152 /* LaunchScreen.xib */; };
+		127762E91B05AEB1001B9152 /* Convetor_Temprature_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127762E81B05AEB1001B9152 /* Convetor_Temprature_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		127762E31B05AEB1001B9152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127762BE1B05AEB0001B9152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127762C51B05AEB0001B9152;
+			remoteInfo = "Convetor(Temprature)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		127762C61B05AEB0001B9152 /* Convetor(Temprature).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convetor(Temprature).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		127762CA1B05AEB0001B9152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127762CB1B05AEB0001B9152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		127762CD1B05AEB0001B9152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		127762CE1B05AEB0001B9152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		127762D11B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Convetor_Temprature_.xcdatamodel; sourceTree = "<group>"; };
+		127762D31B05AEB0001B9152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		127762D41B05AEB0001B9152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		127762D71B05AEB1001B9152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		127762D91B05AEB1001B9152 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		127762DC1B05AEB1001B9152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		127762E21B05AEB1001B9152 /* Convetor(Temprature)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Convetor(Temprature)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		127762E71B05AEB1001B9152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127762E81B05AEB1001B9152 /* Convetor_Temprature_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Convetor_Temprature_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		127762C31B05AEB0001B9152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127762DF1B05AEB1001B9152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127762BD1B05AEB0001B9152 = {
+			isa = PBXGroup;
+			children = (
+				127762C81B05AEB0001B9152 /* Convetor(Temprature) */,
+				127762E51B05AEB1001B9152 /* Convetor(Temprature)Tests */,
+				127762C71B05AEB0001B9152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		127762C71B05AEB0001B9152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				127762C61B05AEB0001B9152 /* Convetor(Temprature).app */,
+				127762E21B05AEB1001B9152 /* Convetor(Temprature)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		127762C81B05AEB0001B9152 /* Convetor(Temprature) */ = {
+			isa = PBXGroup;
+			children = (
+				127762CD1B05AEB0001B9152 /* AppDelegate.h */,
+				127762CE1B05AEB0001B9152 /* AppDelegate.m */,
+				127762D31B05AEB0001B9152 /* ViewController.h */,
+				127762D41B05AEB0001B9152 /* ViewController.m */,
+				127762D61B05AEB1001B9152 /* Main.storyboard */,
+				127762D91B05AEB1001B9152 /* Images.xcassets */,
+				127762DB1B05AEB1001B9152 /* LaunchScreen.xib */,
+				127762D01B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodeld */,
+				127762C91B05AEB0001B9152 /* Supporting Files */,
+			);
+			path = "Convetor(Temprature)";
+			sourceTree = "<group>";
+		};
+		127762C91B05AEB0001B9152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				127762CA1B05AEB0001B9152 /* Info.plist */,
+				127762CB1B05AEB0001B9152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		127762E51B05AEB1001B9152 /* Convetor(Temprature)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				127762E81B05AEB1001B9152 /* Convetor_Temprature_Tests.m */,
+				127762E61B05AEB1001B9152 /* Supporting Files */,
+			);
+			path = "Convetor(Temprature)Tests";
+			sourceTree = "<group>";
+		};
+		127762E61B05AEB1001B9152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				127762E71B05AEB1001B9152 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		127762C51B05AEB0001B9152 /* Convetor(Temprature) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127762EC1B05AEB1001B9152 /* Build configuration list for PBXNativeTarget "Convetor(Temprature)" */;
+			buildPhases = (
+				127762C21B05AEB0001B9152 /* Sources */,
+				127762C31B05AEB0001B9152 /* Frameworks */,
+				127762C41B05AEB0001B9152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convetor(Temprature)";
+			productName = "Convetor(Temprature)";
+			productReference = 127762C61B05AEB0001B9152 /* Convetor(Temprature).app */;
+			productType = "com.apple.product-type.application";
+		};
+		127762E11B05AEB1001B9152 /* Convetor(Temprature)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127762EF1B05AEB1001B9152 /* Build configuration list for PBXNativeTarget "Convetor(Temprature)Tests" */;
+			buildPhases = (
+				127762DE1B05AEB1001B9152 /* Sources */,
+				127762DF1B05AEB1001B9152 /* Frameworks */,
+				127762E01B05AEB1001B9152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127762E41B05AEB1001B9152 /* PBXTargetDependency */,
+			);
+			name = "Convetor(Temprature)Tests";
+			productName = "Convetor(Temprature)Tests";
+			productReference = 127762E21B05AEB1001B9152 /* Convetor(Temprature)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		127762BE1B05AEB0001B9152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Com.Zaptech;
+				TargetAttributes = {
+					127762C51B05AEB0001B9152 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					127762E11B05AEB1001B9152 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 127762C51B05AEB0001B9152;
+					};
+				};
+			};
+			buildConfigurationList = 127762C11B05AEB0001B9152 /* Build configuration list for PBXProject "Convetor(Temprature)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 127762BD1B05AEB0001B9152;
+			productRefGroup = 127762C71B05AEB0001B9152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				127762C51B05AEB0001B9152 /* Convetor(Temprature) */,
+				127762E11B05AEB1001B9152 /* Convetor(Temprature)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		127762C41B05AEB0001B9152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127762D81B05AEB1001B9152 /* Main.storyboard in Resources */,
+				127762DD1B05AEB1001B9152 /* LaunchScreen.xib in Resources */,
+				127762DA1B05AEB1001B9152 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127762E01B05AEB1001B9152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		127762C21B05AEB0001B9152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127762CF1B05AEB0001B9152 /* AppDelegate.m in Sources */,
+				127762CC1B05AEB0001B9152 /* main.m in Sources */,
+				127762D51B05AEB0001B9152 /* ViewController.m in Sources */,
+				127762D21B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127762DE1B05AEB1001B9152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127762E91B05AEB1001B9152 /* Convetor_Temprature_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		127762E41B05AEB1001B9152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 127762C51B05AEB0001B9152 /* Convetor(Temprature) */;
+			targetProxy = 127762E31B05AEB1001B9152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		127762D61B05AEB1001B9152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127762D71B05AEB1001B9152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		127762DB1B05AEB1001B9152 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127762DC1B05AEB1001B9152 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		127762EA1B05AEB1001B9152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		127762EB1B05AEB1001B9152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		127762ED1B05AEB1001B9152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Convetor(Temprature)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		127762EE1B05AEB1001B9152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Convetor(Temprature)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		127762F01B05AEB1001B9152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Convetor(Temprature)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convetor(Temprature).app/Convetor(Temprature)";
+			};
+			name = Debug;
+		};
+		127762F11B05AEB1001B9152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Convetor(Temprature)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Convetor(Temprature).app/Convetor(Temprature)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127762C11B05AEB0001B9152 /* Build configuration list for PBXProject "Convetor(Temprature)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127762EA1B05AEB1001B9152 /* Debug */,
+				127762EB1B05AEB1001B9152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127762EC1B05AEB1001B9152 /* Build configuration list for PBXNativeTarget "Convetor(Temprature)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127762ED1B05AEB1001B9152 /* Debug */,
+				127762EE1B05AEB1001B9152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		127762EF1B05AEB1001B9152 /* Build configuration list for PBXNativeTarget "Convetor(Temprature)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127762F01B05AEB1001B9152 /* Debug */,
+				127762F11B05AEB1001B9152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		127762D01B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				127762D11B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodel */,
+			);
+			currentVersion = 127762D11B05AEB0001B9152 /* Convetor_Temprature_.xcdatamodel */;
+			path = Convetor_Temprature_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 127762BE1B05AEB0001B9152 /* Project object */;
+}
