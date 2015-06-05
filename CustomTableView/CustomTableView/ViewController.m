@@ -18,7 +18,7 @@
     NSArray *Items;
     NSArray *Thumbnail;
     BOOL *Flag;
-    NSArray * keys;
+   // NSArray * keys;
 }
 
 - (void)viewDidLoad {

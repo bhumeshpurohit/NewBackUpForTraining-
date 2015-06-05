@@ -51,7 +51,7 @@ shouldReloadTableForSearchString:(NSString *)searchString
         
     } else {
         return [Items count];
-        
+         
     }
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
