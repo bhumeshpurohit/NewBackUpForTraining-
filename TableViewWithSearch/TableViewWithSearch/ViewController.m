@@ -67,9 +67,9 @@ shouldReloadTableForSearchString:(NSString *)searchString
     if (tableView == self.searchDisplayController.searchResultsTableView) {
         cell.textLabel.text = [searchResults objectAtIndex:indexPath.row];
     }
-//    else {
-//        cell.textLabel.text = [Items objectAtIndex:indexPath.row];
-//    }
+  else {
+      cell.textLabel.text = [Items objectAtIndex:indexPath.row];
+    }
     return cell;
 }
 

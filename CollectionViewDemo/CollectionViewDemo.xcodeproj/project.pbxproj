@@ -16,7 +16,7 @@
 		120C830B1B09DDEE0095B15C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120C83091B09DDEE0095B15C /* LaunchScreen.xib */; };
 		120C83171B09DDEE0095B15C /* CollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C83161B09DDEE0095B15C /* CollectionViewDemoTests.m */; };
 		120C83221B09DEE80095B15C /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C83211B09DEE80095B15C /* RecipeCollectionViewController.m */; };
-		120C83241B09DF750095B15C /* noodles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 120C83231B09DF750095B15C /* noodles.jpg */; };
+		12DFCFC61B319FBC0017ADE5 /* noodles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12DFCFC51B319FBC0017ADE5 /* noodles.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		120C83161B09DDEE0095B15C /* CollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoTests.m; sourceTree = "<group>"; };
 		120C83201B09DEE80095B15C /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
 		120C83211B09DEE80095B15C /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
-		120C83231B09DF750095B15C /* noodles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noodles.jpg; path = ../../../Downloads/noodles.jpg; sourceTree = "<group>"; };
+		12DFCFC51B319FBC0017ADE5 /* noodles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodles.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 				120C83011B09DDEE0095B15C /* ViewController.h */,
 				120C83021B09DDEE0095B15C /* ViewController.m */,
 				120C83041B09DDEE0095B15C /* Main.storyboard */,
-				120C83231B09DF750095B15C /* noodles.jpg */,
+				12DFCFC51B319FBC0017ADE5 /* noodles.jpg */,
 				120C83071B09DDEE0095B15C /* Images.xcassets */,
 				120C83091B09DDEE0095B15C /* LaunchScreen.xib */,
 				120C82FE1B09DDEE0095B15C /* CollectionViewDemo.xcdatamodeld */,
@@ -212,7 +212,7 @@
 			files = (
 				120C83061B09DDEE0095B15C /* Main.storyboard in Resources */,
 				120C830B1B09DDEE0095B15C /* LaunchScreen.xib in Resources */,
-				120C83241B09DF750095B15C /* noodles.jpg in Resources */,
+				12DFCFC61B319FBC0017ADE5 /* noodles.jpg in Resources */,
 				120C83081B09DDEE0095B15C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +426,7 @@
 				120C831C1B09DDEE0095B15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		120C831D1B09DDEE0095B15C /* Build configuration list for PBXNativeTarget "CollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				120C831F1B09DDEE0095B15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

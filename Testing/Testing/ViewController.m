@@ -98,11 +98,11 @@
     // sharing on facebook
     
     NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
-                                   @"NighBook EventDetails", @"name",
+                                   @"My EventDetails", @"name",
                                    @"TestTest", @"caption",
                                    @"Share Events", @"description",
-                                   @"https://www.google.com", @"link",
-                                   @"http://www.zaptechsolutions.com/images/logo.gif", @"picture",
+                                   //@"https://www.google.com", @"link",
+                                   @"https://www.google.co.in/images/srpr/logo11w.png", @"picture",
                                    nil];
     
     // Make the request
@@ -149,6 +149,7 @@
 - (IBAction)ShareInfo:(id)sender {
     
     //use for login but currently not use in this applicxation.
+    openActiveSessionWithReadPermissions:allowLoginUI:completionHandler:
     
     [self toggleHiddenState:NO];
     [FBSession openActiveSessionWithPublishPermissions:@[@"public_profile,publish_actions"] defaultAudience:FBSessionDefaultAudienceEveryone allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error) {

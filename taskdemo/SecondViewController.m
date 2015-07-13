@@ -51,7 +51,9 @@
     imageView.layer.borderWidth =.4f;
     imageView.layer.masksToBounds = YES;
     //for set text from other class
-    labelView.text=titleStr;
+   // NSString *xval= [NSString stringWithFormat:@"%s",@"Title"];
+
+    labelView.text=[@"Title:-  " stringByAppendingString:titleStr];
    
     
     // CGSize maximumLabelSize = CGSizeMake(280,1000);
@@ -62,16 +64,19 @@
     CGSize lblSize = [desc sizeWithFont:[UIFont systemFontOfSize:15] constrainedToSize: CGSizeMake(200.0f, 600.0f) lineBreakMode: NSLineBreakByWordWrapping];
     UILabel *labelDesc = [[UILabel alloc] initWithFrame:frame];
     
-    labelDesc.frame = CGRectMake(20, 150, 200, lblSize.height);
+    labelDesc.frame = CGRectMake(20, 120, 330, lblSize.height);
     labelDesc.numberOfLines = 0;
     labelDesc.lineBreakMode = NSLineBreakByWordWrapping;
     labelDesc.font = [UIFont systemFontOfSize:15];
     labelDesc.text = desc;
     labelDesc.backgroundColor = [UIColor clearColor];
     [labelDesc sizeToFit];
-    headerView.frame = CGRectMake(20, 150, 200, lblSize.height);
+    
+    headerView.frame = CGRectMake(20, 50, 200, lblSize.height);
     [headerView sizeToFit];
     [headerView addSubview:labelDesc];
+      headerView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.tableview.tableHeaderView=headerView;
    
   // self.tableview = [[UITableView alloc] initWithFrame:CGRectMake(0,lblSize.height+150 , self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     // [self.tableview setDataSource:self];ftable
@@ -96,6 +101,7 @@
     [label setText:@"New Title"];
         return headerView;
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

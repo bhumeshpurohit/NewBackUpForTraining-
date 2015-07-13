@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12D49E6B1B1D8E4F00842D8D /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D49E6A1B1D8E4F00842D8D /* placeholder.png */; };
+		126B566B1B2ADE27001CA81B /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 126B566A1B2ADE27001CA81B /* placeholder.png */; };
+		126B566D1B2AE590001CA81B /* button2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 126B566C1B2AE590001CA81B /* button2.jpg */; };
 		12DC9CC21B1347250047A1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DC9CC11B1347250047A1F5 /* main.m */; };
 		12DC9CC51B1347250047A1F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DC9CC41B1347250047A1F5 /* AppDelegate.m */; };
 		12DC9CC81B1347260047A1F5 /* taskdemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12DC9CC61B1347260047A1F5 /* taskdemo.xcdatamodeld */; };
@@ -30,7 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12D49E6A1B1D8E4F00842D8D /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../Downloads/placeholder.png; sourceTree = "<group>"; };
+		126B566A1B2ADE27001CA81B /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		126B566C1B2AE590001CA81B /* button2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button2.jpg; sourceTree = "<group>"; };
 		12DC9CBC1B1347250047A1F5 /* taskdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DC9CC01B1347250047A1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12DC9CC11B1347250047A1F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,9 +96,10 @@
 				12DC9CC41B1347250047A1F5 /* AppDelegate.m */,
 				12DC9CC91B1347260047A1F5 /* aViewController.h */,
 				12DC9CCA1B1347260047A1F5 /* aViewController.m */,
+				126B566C1B2AE590001CA81B /* button2.jpg */,
+				126B566A1B2ADE27001CA81B /* placeholder.png */,
 				12DC9CCC1B1347260047A1F5 /* Main.storyboard */,
 				12DC9CCF1B1347260047A1F5 /* Images.xcassets */,
-				12D49E6A1B1D8E4F00842D8D /* placeholder.png */,
 				12DC9CD11B1347260047A1F5 /* LaunchScreen.xib */,
 				12DC9CC61B1347260047A1F5 /* taskdemo.xcdatamodeld */,
 				12DC9CBF1B1347250047A1F5 /* Supporting Files */,
@@ -211,7 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12DC9CCE1B1347260047A1F5 /* Main.storyboard in Resources */,
-				12D49E6B1B1D8E4F00842D8D /* placeholder.png in Resources */,
+				126B566B1B2ADE27001CA81B /* placeholder.png in Resources */,
+				126B566D1B2AE590001CA81B /* button2.jpg in Resources */,
 				12DC9CD31B1347260047A1F5 /* LaunchScreen.xib in Resources */,
 				12DC9CD01B1347260047A1F5 /* Images.xcassets in Resources */,
 			);

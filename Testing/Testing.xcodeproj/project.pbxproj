@@ -21,7 +21,6 @@
 		125B554C1B0B04BE006883F2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B55461B0B04BE006883F2 /* FBSDKLoginKit.framework */; };
 		125B554D1B0B04BE006883F2 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B55471B0B04BE006883F2 /* FBSDKMessengerShareKit.framework */; };
 		125B554E1B0B04BE006883F2 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B55481B0B04BE006883F2 /* FBSDKShareKit.framework */; };
-		125B55501B0B04F8006883F2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125B554F1B0B04F8006883F2 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		125B55461B0B04BE006883F2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		125B55471B0B04BE006883F2 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		125B55481B0B04BE006883F2 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
-		125B554F1B0B04F8006883F2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../LoginSampleFB-2/LoginSampleFB/FacebookSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				125B554D1B0B04BE006883F2 /* FBSDKMessengerShareKit.framework in Frameworks */,
 				125B554C1B0B04BE006883F2 /* FBSDKLoginKit.framework in Frameworks */,
 				125B554A1B0B04BE006883F2 /* FBAudienceNetwork.framework in Frameworks */,
-				125B55501B0B04F8006883F2 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,13 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				125791B51B0EFEA6007B2594 /* FBSDKCoreKit.framework */,
-				125B554F1B0B04F8006883F2 /* FacebookSDK.framework */,
-				125B55431B0B04BE006883F2 /* Bolts.framework */,
 				125B55441B0B04BE006883F2 /* FBAudienceNetwork.framework */,
 				125B55451B0B04BE006883F2 /* FBSDKCoreKit.framework */,
 				125B55461B0B04BE006883F2 /* FBSDKLoginKit.framework */,
 				125B55471B0B04BE006883F2 /* FBSDKMessengerShareKit.framework */,
 				125B55481B0B04BE006883F2 /* FBSDKShareKit.framework */,
+				125B55431B0B04BE006883F2 /* Bolts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -389,8 +385,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/Testing",
 					"$(inherited)",
-					/Users/Bhumesh/Documents/FacebookSDK,
-					"$(PROJECT_DIR)/FacebookSDK",
+					"/Users/Bhumesh/Documents/FacebookSDK/**",
+					/FacebookSDK,
 					"/Users/bhumesh/Desktop/LoginSampleFB-2/LoginSampleFB",
 					"$(PROJECT_DIR)",
 					/Users/bhumesh/Documents/FacebookSDK,
@@ -419,8 +415,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/Testing",
 					"$(inherited)",
-					/Users/Bhumesh/Documents/FacebookSDK,
-					"$(PROJECT_DIR)/FacebookSDK",
+					"/Users/Bhumesh/Documents/FacebookSDK/**",
+					/FacebookSDK,
 					"/Users/bhumesh/Desktop/LoginSampleFB-2/LoginSampleFB",
 					"$(PROJECT_DIR)",
 					/Users/bhumesh/Documents/FacebookSDK,

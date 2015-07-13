@@ -20,6 +20,7 @@
 @synthesize title1;
 @synthesize desc1;
 @synthesize objSecondViewController;
+@synthesize txtview;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -49,6 +50,8 @@
     objSecondViewController.titleStr=titledata.text;
     objSecondViewController.img=self.imageview.image;
     objSecondViewController.desc=descrip.text;
+ 
+   // txtview.layer.borderColor =
     
     
     [self.navigationController pushViewController:objSecondViewController animated:YES];

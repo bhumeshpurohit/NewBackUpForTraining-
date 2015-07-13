@@ -18,6 +18,7 @@
 
 - (IBAction)selecting:(id)sender;
 @property (nonatomic, retain) NSString *title1;
+@property (strong, nonatomic) IBOutlet UITextView *txtview;
 @property (nonatomic, retain) NSString *desc1;
 @property (nonatomic,retain)SecondViewController *objSecondViewController;
 
