@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ClientListViewController" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ClientTableViewCell" rowHeight="80" id="KGk-i7-Jjw" customClass="ClientTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcE-zJ-ZFI">
+                        <rect key="frame" x="250" y="48" width="90" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gG1-k4-tNC"/>
+                            <constraint firstAttribute="width" constant="90" id="khf-aM-3gs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vehicle" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQN-X3-vFn">
+                        <rect key="frame" x="10" y="48" width="240" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVU-sH-byv">
+                        <rect key="frame" x="10" y="10" width="325" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CcE-zJ-ZFI" firstAttribute="leading" secondItem="bQN-X3-vFn" secondAttribute="trailing" id="1Lu-B9-ChU"/>
+                    <constraint firstItem="bQN-X3-vFn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="4Pd-ku-cYW"/>
+                    <constraint firstItem="uVU-sH-byv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FHL-f3-eko"/>
+                    <constraint firstItem="CcE-zJ-ZFI" firstAttribute="leading" secondItem="bQN-X3-vFn" secondAttribute="trailing" constant="5" id="Jyd-1n-ddE"/>
+                    <constraint firstAttribute="trailing" secondItem="CcE-zJ-ZFI" secondAttribute="trailing" constant="5" id="MnK-90-n1W"/>
+                    <constraint firstItem="uVU-sH-byv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Tai-bG-jDd"/>
+                    <constraint firstAttribute="bottom" secondItem="bQN-X3-vFn" secondAttribute="bottom" constant="10" id="Y71-gm-Q3h"/>
+                    <constraint firstAttribute="bottom" secondItem="bQN-X3-vFn" secondAttribute="bottom" constant="10" id="YEg-7r-1Xo"/>
+                    <constraint firstAttribute="bottom" secondItem="CcE-zJ-ZFI" secondAttribute="bottom" constant="10" id="mUn-sX-qGL"/>
+                    <constraint firstAttribute="trailing" secondItem="uVU-sH-byv" secondAttribute="trailing" constant="10" id="tTu-VW-17b"/>
+                    <constraint firstItem="bQN-X3-vFn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="wxV-mn-86c"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Y71-gm-Q3h"/>
+                        <exclude reference="wxV-mn-86c"/>
+                        <exclude reference="Jyd-1n-ddE"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.52941176469999995" green="0.80784313730000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="lblClientName" destination="uVU-sH-byv" id="rCA-Fj-9sh"/>
+                <outlet property="lblDate" destination="CcE-zJ-ZFI" id="sUZ-5i-Whd"/>
+                <outlet property="lblVehicle" destination="bQN-X3-vFn" id="BU4-FK-c6W"/>
+            </connections>
+            <point key="canvasLocation" x="278" y="294"/>
+        </tableViewCell>
+    </objects>
+</document>
